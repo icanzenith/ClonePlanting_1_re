@@ -1,8 +1,44 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    rom res/values-vXX/styles.xml on newer devices.
+   -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
     </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Edt_White_Style" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/edt_background</item>
+    </style>
+
+    <style name="Bt_Orange_Style" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_styled</item>
+    </style>
+    <style name="Bt_Login_Orange_Style" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/login_button_styled</item>
+    </style>
+    <style name="Image_Bt_Orange_Style" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/image_button_styled</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="Button_Orange_Style" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/image_button_styled</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="Edittext_Check_Style" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/bg_edittext_check_style</item>
+
+    </style>
+
 
 </resources>
