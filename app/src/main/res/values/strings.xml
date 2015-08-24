@@ -3,4 +3,27 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="URI_CLONEINORDER">content://ClonePlanting/cloneinorder</string>
+
+    <!-- URL -->
+    <string name="URL_LOGIN">http://210.1.60.178:6111/index.php/service/loginbreedingsystem</string>
+    <string name="URL_TAKEACTIVITY">http://210.1.60.178:6111/index.php/service/takeactivityfamily</string>
+    <string name="URL_UPLOAD">http://210.1.60.178:6111/index.php/service/familyinput</string>
+    <string name="URL_TAKE_FAMILY">http://210.1.60.178:6111/index.php/service/takefamilydatabyplacetest</string>
+    <string name="URL_DELETEROW">http://210.1.60.178:6111/index.php/service/delplanteddata</string>
+
+    <string-array name="Sector">
+        <item>มหาวิทยาลัยเกษตรศาสตร์</item>
+        <item>สอน. ภาคกลาง</item>
+        <item>สอน. ภาคตะวันออก</item>
+        <item>สอน. ภาคอีสาน</item>
+        <item>สอน. ภาคเหนือ</item>
+        <item>ศูนย์พืชไร่ขอนแก่น</item>
+        <item>ศูนย์พืชไร่สุพรรณ</item>
+        <item>รง.เกษตรไทย</item>
+        <item>รง.ไทยรุ่งเรือง</item>
+        <item>รง.บุรีรัมย์</item>
+        <item>คุณพรศักดิ์</item>
+    </string-array>
 </resources>
